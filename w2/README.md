@@ -15,10 +15,10 @@ ___
     <li>Relax and hangout with my siblings or father until <em><strong>9:00pm.</strong></em></li>
     <li>Play <em>video games</em> or <em>read</em> until <em><strong>10-10:30pm.</strong></em></li>
     <li> Sleep at <em><strong>10:30pm.</strong></em></li>
-    </ol>
-    <h3>Side Note:</h3>
-<<h4>>I like to play on this chess website<<h4>>
+    </ol>   
+<h3>Side Note:</h3>
+<h4>I like to play on this chess website<h4>
 
-(https://www.chess.com/play/computer)
+>(https://www.chess.com/play/computer)
 
-<a href="https://www.chess.com/play/computer"></a>
+><a href="https://www.chess.com/play/computer"></a>
