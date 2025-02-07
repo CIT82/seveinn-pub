@@ -1,0 +1,18 @@
+ header {
+color: black;
+background-color: seagreen;
+border: 200px;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+    border-radius: 20px;
+}
+p {
+    background-color: beige;
+    font: sans-serif;
+    border-color: black 5px;
+}
+summary {
+   color: black;
+}
