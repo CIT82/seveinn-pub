@@ -11,6 +11,7 @@
 
     <h1>Bootstrap 5 Tooltips Example</h1>
     <p>Hover over the buttons below to see tooltips:</p>
+    <p>By creating the buttons we can use some elements that allow us to hover over and see tooltips </p>
 
     <!-- Tooltip Buttons -->
     <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Facts, pointers, and anything else you need to know">
@@ -32,8 +33,9 @@
     <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Press here for custom settings, profile changes, and more.">
         Settings
     </button>
-
-    <!-- Initialize Tooltips -->
+<p>Using tooltips to see what each button's function is meant for allows users to get a more descriptive rundown before pressing the actual button</button></p>
+    <!-- Initialize Tooltips: document.addEventListener(DOMContentLoaded) allows the tooltips to load after the page loads so no breaks
+     document.querySelectorAll('[data-bs-toggle="tooltip"]') finds all elements on the page that have data-bs-toggle="tooltip" tooltipTriggerList.map(tooltipTriggerE1 => newbootstrap.Tooltip(tooltipTriggerE1)) activates the tooltips for every element in the list. -->
     <script>
         document.addEventListener("DOMContentLoaded"), function () {
             const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
@@ -42,5 +44,37 @@
     </script>
 <!-- https://getbootstrap.com/docs/5.3/components/tooltips/
  -->
+ 
+     <!-- Popover Buttons -->
+     <h3>Popovers</h3>
+     <p>Popovers are similar to tooltips but instead of hovering, you have to click on them for the display to stay.</p>
+     <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="top" title="Popover Title" data-bs-content="This is some extra info in a popover.">
+         Popover on top
+     </button>
+ 
+     <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="right" title="Popover Title" data-bs-content="More details shown on the right!">
+         Popover on right
+     </button>
+ 
+     <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="bottom" title="Popover Title" data-bs-content="Extra details below!">
+         Popover on bottom
+     </button>
+ 
+     <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="left" title="Popover Title" data-bs-content="More text on the left!">
+         Popover on left
+     </button>
+ 
+     <!-- Initialize Tooltips and Popovers -->
+     <script>
+         document.addEventListener("DOMContentLoaded", function () {
+             // Activate all popovers
+             const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+             popoverTriggerList.forEach(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+         });
+     </script>
+ 
+ </body>
+ </html>
+ 
 </body>
 </html>
