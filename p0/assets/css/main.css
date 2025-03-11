@@ -19,20 +19,20 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #2e2e2e; /* Background color for the entire website, including individual sections */
+  --background-color: #2b2929; /* Background color for the entire website, including individual sections */
   --default-color: #ffffff; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #b82a2a; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #010306; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #e9faf2; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #0e0d0d; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --heading-color: #be1d1d; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #e1e426; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #471111; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #060505; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #c63838;  /* The default color of the main navmenu links */
-  --nav-hover-color: #e33011; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #090202; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #fa1a1a; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-color: #fa0303;  /* The default color of the main navmenu links */
+  --nav-hover-color: #dce311; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #0c0606; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #070303; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #db2828; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #c1f115; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
@@ -40,15 +40,15 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9f9f9;
+  --background-color: #a61d1d;
   --surface-color: #ffffff;
 }
 
 .dark-background {
   --background-color: #060606;
   --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --surface-color: #252525;
+  --heading-color: #f50606;
+  --surface-color: #8a3333;
   --contrast-color: #ffffff;
 }
 
@@ -86,6 +86,7 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
+
 
 /* PHP Email Form Messages
 ------------------------------*/
@@ -1392,6 +1393,7 @@ section,
 # Starter Section Section
 --------------------------------------------------------------*/
 .starter-section {
+  
   /* Add your styles here */
 }
 
@@ -1405,7 +1407,7 @@ section,
 .blog-details .article {
   background-color: var(--surface-color);
   padding: 30px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 16px rgba(210, 17, 17, 0.1);
 }
 
 .blog-details .post-img {

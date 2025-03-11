@@ -1,576 +1,737 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>Sports Leagues - Sports World</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-      
-        <!-- Favicons -->
-        <link href="assets/images/favicon/faviconimages/favicon-16x16.png" rel="icon">
-        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-      
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com" rel="preconnect">
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-      
-        <!-- Vendor CSS Files -->
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-      
-        <!-- Main CSS File -->
-        <link href="assets/css/main.css" rel="stylesheet">
-</head>
-<body>
-<header class="header d-flex align-items-center sticky-top">
-    <div class="container position-relative d-flex align-items-center justify-content-between">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Boxing - Sports World</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link
+      href="assets/images/favicon/faviconimages/favicon-16x16.png"
+      rel="icon"
+    />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header d-flex align-items-center sticky-top">
+      <div
+        class="container position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="learnmore.html" class="active">Learn More</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>All the Leagues</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
 
-    <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-      </a>
-    
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="learnmore.html" class="active">Learn More</a></li>
-          <li class="dropdown">
-            <a href="#"
-              ><span>All the Leagues</span>
-              <i class="bi bi-chevron-down toggle-dropdown"></i
-            ></a>
-
-            <ul>
-              <li class="list-group-item">
-                <a href="nbaleague.html">NBA League</a>
-              </li>
-              <li class="list-group-item">
-                <a href="nflleague.html">NFL League</a>
-              </li>
-              <li class="list-group-item">
-                <a href="mlbleague.html">MLB League</a>
-              </li>
-              <li class="list-group-item">
-                <a href="nhlleague.html">NHL League</a>
-              </li>
-              <li class="list-group-item">
-                <a href="boxing.html">Boxing</a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="dropdown">
-            <a href="#"
-              ><span>Extras</span>
-              <i class="bi bi-chevron-down toggle-dropdown"></i
-            ></a>
-            <ul>
-              <li class="list-group-item">
-                <a href="debates.html">Debates</a>
-              </li>
-              <li class="list-group-item">
-                <a href="history.html">History</a>
-              </li>
-              <li class="list-group-item">
-                <a href="sitemap.html">Site Map</a>
-              </li>
-              <li class="list-group-item">
-                <a href="opinions.html">Opinions</a>
-              </li>
-              <li class="list-group-item"><a href="about.html">About</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-
-      <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
-    </div>
-  </header>
-  <main class="main">
-
-    <!-- Page Title -->
-    <div class="page-title position-relative">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Category</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Categories</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
-
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-8">
-
-          <!-- Blog Posts Section -->
-          <section id="blog-posts" class="blog-posts section">
-
-            <div class="container">
-              <div class="row gy-4">
-
-                <div class="col-lg-6">
-                  <article class="position-relative h-100">
-
-                    <div class="post-img position-relative overflow-hidden">
-                      <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
-                      <span class="post-date">December 12</span>
-                    </div>
-
-                    <div class="post-content d-flex flex-column">
-
-                      <h3 class="post-title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h3>
-
-                      <div class="meta d-flex align-items-center">
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-person"></i> <span class="ps-2">John Doe</span>
-                        </div>
-                        <span class="px-3 text-black-50">/</span>
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
-                        </div>
-                      </div>
-
-                      <p>
-                        Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                      </p>
-
-                      <hr>
-
-                      <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-                    </div>
-
-                  </article>
-                </div><!-- End post list item -->
-
-                <div class="col-lg-6">
-                  <article class="position-relative h-100">
-
-                    <div class="post-img position-relative overflow-hidden">
-                      <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
-                      <span class="post-date">March 19</span>
-                    </div>
-
-                    <div class="post-content d-flex flex-column">
-
-                      <h3 class="post-title">Nisi magni odit consequatur autem nulla dolorem</h3>
-
-                      <div class="meta d-flex align-items-center">
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
-                        </div>
-                        <span class="px-3 text-black-50">/</span>
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
-                        </div>
-                      </div>
-
-                      <p>
-                        Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam.
-                      </p>
-
-                      <hr>
-
-                      <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-                    </div>
-
-                  </article>
-                </div><!-- End post list item -->
-
-                <div class="col-lg-6">
-                  <article class="position-relative h-100">
-
-                    <div class="post-img position-relative overflow-hidden">
-                      <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
-                      <span class="post-date">June 24</span>
-                    </div>
-
-                    <div class="post-content d-flex flex-column">
-
-                      <h3 class="post-title">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</h3>
-
-                      <div class="meta d-flex align-items-center">
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-person"></i> <span class="ps-2">Maria Doe</span>
-                        </div>
-                        <span class="px-3 text-black-50">/</span>
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
-                        </div>
-                      </div>
-
-                      <p>
-                        Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
-                      </p>
-
-                      <hr>
-
-                      <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-                    </div>
-
-                  </article>
-                </div><!-- End post list item -->
-
-                <div class="col-lg-6">
-                  <article class="position-relative h-100">
-
-                    <div class="post-img position-relative overflow-hidden">
-                      <img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt="">
-                      <span class="post-date">August 05</span>
-                    </div>
-
-                    <div class="post-content d-flex flex-column">
-
-                      <h3 class="post-title">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</h3>
-
-                      <div class="meta d-flex align-items-center">
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-person"></i> <span class="ps-2">Maria Doe</span>
-                        </div>
-                        <span class="px-3 text-black-50">/</span>
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
-                        </div>
-                      </div>
-
-                      <p>
-                        Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
-                      </p>
-
-                      <hr>
-
-                      <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-                    </div>
-
-                  </article>
-                </div><!-- End post list item -->
-
-                <div class="col-lg-6">
-                  <article class="position-relative h-100">
-
-                    <div class="post-img position-relative overflow-hidden">
-                      <img src="assets/img/blog/blog-5.jpg" class="img-fluid" alt="">
-                      <span class="post-date">September 17</span>
-                    </div>
-
-                    <div class="post-content d-flex flex-column">
-
-                      <h3 class="post-title">Accusamus quaerat aliquam qui debitis facilis consequatur</h3>
-
-                      <div class="meta d-flex align-items-center">
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-person"></i> <span class="ps-2">John Parker</span>
-                        </div>
-                        <span class="px-3 text-black-50">/</span>
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
-                        </div>
-                      </div>
-
-                      <p>
-                        In itaque assumenda aliquam voluptatem qui temporibus iusto nisi quia. Autem vitae quas aperiam nesciunt mollitia tempora odio omnis. Ipsa odit sit ut amet necessitatibus. Quo ullam ut corrupti autem consequuntur totam dolorem.
-                      </p>
-
-                      <hr>
-
-                      <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-                    </div>
-
-                  </article>
-                </div><!-- End post list item -->
-
-                <div class="col-lg-6">
-                  <article class="position-relative h-100">
-
-                    <div class="post-img position-relative overflow-hidden">
-                      <img src="assets/img/blog/blog-6.jpg" class="img-fluid" alt="">
-                      <span class="post-date">December 07</span>
-                    </div>
-
-                    <div class="post-content d-flex flex-column">
-
-                      <h3 class="post-title">Distinctio provident quibusdam numquam aperiam aut</h3>
-
-                      <div class="meta d-flex align-items-center">
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-person"></i> <span class="ps-2">Julia White</span>
-                        </div>
-                        <span class="px-3 text-black-50">/</span>
-                        <div class="d-flex align-items-center">
-                          <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
-                        </div>
-                      </div>
-
-                      <p>
-                        Expedita et temporibus eligendi enim molestiae est architecto praesentium dolores. Illo laboriosam officiis quis. Labore officia quia sit voluptatem nisi est dignissimos totam. Et voluptate et consectetur voluptatem id dolor magni impedit. Omnis dolores sit.
-                      </p>
-
-                      <hr>
-
-                      <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-                    </div>
-
-                  </article>
-                </div><!-- End post list item -->
-
-              </div>
-            </div>
-
-          </section><!-- /Blog Posts Section -->
-
-          <!-- Blog Pagination Section -->
-          <section id="blog-pagination" class="blog-pagination section">
-
-            <div class="container">
-              <div class="d-flex justify-content-center">
-                <ul>
-                  <li><a href="#"><i class="bi bi-chevron-left"></i></a></li>
-                  <li><a href="#">1</a></li>
-                  <li><a href="#" class="active">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li>...</li>
-                  <li><a href="#">10</a></li>
-                  <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
-                </ul>
-              </div>
-            </div>
-
-          </section><!-- /Blog Pagination Section -->
-
-        </div>
-
-        <div class="col-lg-4 sidebar">
-
-          <div class="widgets-container">
-
-            <!-- Blog Author Widget 2 -->
-            <div class="blog-author-widget-2 widget-item">
-
-              <div class="d-flex flex-column align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" class="rounded-circle flex-shrink-0" alt="">
-                <h4>Jane Smith</h4>
-                <div class="social-links">
-                  <a href="https://x.com/#"><i class="bi bi-twitter-x"></i></a>
-                  <a href="https://facebook.com/#"><i class="bi bi-facebook"></i></a>
-                  <a href="https://instagram.com/#"><i class="biu bi-instagram"></i></a>
-                  <a href="https://instagram.com/#"><i class="biu bi-linkedin"></i></a>
-                </div>
-
-                <p>
-                  Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
-                </p>
-
-              </div>
-            </div><!--/Blog Author Widget 2 -->
-
-            <!-- Search Widget -->
-            <div class="search-widget widget-item">
-
-              <h3 class="widget-title">Search</h3>
-              <form action="">
-                <input type="text">
-                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-              </form>
-
-            </div><!--/Search Widget -->
-
-            <!-- Recent Posts Widget -->
-            <div class="recent-posts-widget widget-item">
-
-              <h3 class="widget-title">Recent Posts</h3>
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-recent-1.jpg" alt="" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Nihil blanditiis at in nihil autem</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-recent-2.jpg" alt="" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Quidem autem et impedit</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-recent-3.jpg" alt="" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Id quia et et ut maxime similique occaecati ut</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-recent-4.jpg" alt="" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Laborum corporis quo dara net para</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-recent-5.jpg" alt="" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Et dolores corrupti quae illo quod dolor</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-              </div><!-- End recent post item-->
-
-            </div><!--/Recent Posts Widget -->
-
-            <!-- Tags Widget -->
-            <div class="tags-widget widget-item">
-
-              <h3 class="widget-title">Tags</h3>
               <ul>
-                <li><a href="#">App</a></li>
-                <li><a href="#">IT</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Mac</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Office</a></li>
-                <li><a href="#">Creative</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Smart</a></li>
-                <li><a href="#">Tips</a></li>
-                <li><a href="#">Marketing</a></li>
+                <li class="list-group-item">
+                  <a href="nbaleague.html">NBA League</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="nflleague.html">NFL League</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="mlbleague.html">MLB League</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="nhlleague.html">NHL League</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="boxing.html">Boxing</a>
+                </li>
               </ul>
+            </li>
 
-            </div><!--/Tags Widget -->
+            <li class="dropdown">
+              <a href="#"
+                ><span>Extras</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li class="list-group-item">
+                  <a href="debates.html">Debates</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="history.html">History</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="sitemap.html">Site Map</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="opinions.html">Opinions</a>
+                </li>
+                <li class="list-group-item"><a href="about.html">About</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-          </div>
-
+        <div class="header-social-links">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
-
       </div>
-    </div>
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">ZenBlog</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
+    </header>
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title">
+        <div
+          class="container d-lg-flex justify-content-between align-items-center"
+        >
+          <h1 class="mb-2 mb-lg-0">Boxing</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Boxing</li>
+            </ol>
+          </nav>
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
-        </div>
-
       </div>
-    </div>
+      <!-- End Page Title -->
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">ZenBlog</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
-          <a href="sitemap.html"><strong>Sitemap</strong></a>
-      </div>
-    </div>
+      <!-- Starter Section Section -->
+      <section id="starter-section" class="starter-section section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <div
+            class="section-title-container d-flex align-items-center justify-content-between"
+          >
+            <h2>The Boxing World</h2>
+            <p>
+              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit
+            </p>
+          </div>
+        </div>
+        <!-- End Section Title -->
 
-  </footer>
+        <div class="container" data-aos="fade-up">
+          <p>Use this page as a starter for your own custom pages.</p>
+        </div>
+      </section>
+      <!-- /Starter Section Section -->
+      <section id="slider" class="slider section dark-background">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config"></script>
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url('assets/images/boxingopponentswar.jpg');
+              "
+            >
+              <div class="content">
+                <h2><a href="boxing.html">WBC Champions</a></h2>
+                <p>
+                  Who's the Pound For Pound Greatest? Want to see the next
+                  Heavyweight Bout? Or maybe some of the fastest cruiserweights?
+                  Meet in the middle and enjoy the best of both worlds in
+                  Welterweights!
+                </p>
+              </div>
+            </div>
+            <section id="trending-category" class="trending-category section">
+              <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row g-5">
+                  <div class="col-lg-6">
+                    <div class="post-entry sm">
+                      <a href="nbaleague.html">
+                        <img
+                          src="assets/images/boxingpicopponentmale3.jpg"
+                          alt="Boxing Opponent"
+                          class="img-fluid"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="post-entry sm">
+                      <a href="nbaleague.html">
+                        <img
+                          src="assets/images/boxingpicopponent1.jpg"
+                          alt="Boxing Opponent"
+                          class="img-fluid"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2>
+                <a href="nbaleague.html"
+                  >Upcoming Clash: Rising Stars Set to Battle in the Ring
+                </a>
+              </h2>
+              <p class="mb-4 d-block">A Showdown of the Future Champions</p>
+              <div>
+                <p>
+                  The boxing world is set for an electrifying showdown as two
+                  rising stars, Jake "The Phantom" Reynolds and Marco "El
+                  Torpedo" Vasquez, prepare to square off in what promises to be
+                  a career-defining match. Both fighters have been on an
+                  unstoppable path, dominating their respective opponents with a
+                  mix of skill, power, and determination. Reynolds, known for
+                  his lightning-fast footwork and defensive mastery, has built a
+                  reputation as one of the most elusive fighters in the sport,
+                  frustrating his opponents with his ability to slip punches and
+                  counter with precision. On the other hand, Vasquez, a
+                  powerhouse with relentless aggression, has made a name for
+                  himself with his devastating knockouts, often ending fights
+                  long before the final bell. With both men hungry for victory
+                  and eager to prove they belong among the elite, this bout is
+                  more than just another fight—it's a statement. Fans and
+                  analysts alike are divided on who will come out on top, making
+                  this matchup one of the most highly anticipated in recent
+                  memory. As the fight night approaches, the tension builds, and
+                  the stakes couldn’t be higher. With championship aspirations
+                  on the line, only one will emerge victorious, while the other
+                  will face the toughest setback of their young career.
+                </p>
+              </div>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+              <div class="col-lg-12">
+                <div class="row g-12">
+                  <div class="col-lg-12 border-start custom-border">
+                    <div class="post-list">
+                      <a href="history.html"
+                        ><img
+                          src="assets/images/boxingplayertraining.jpg"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
+                      <div class="post-meta">
+                        <span class="date">Boxing</span>
+                        <span class="mx-1">•</span> <span>Jul 5th '22</span>
+                      </div>
+                      <h2><a href="history.html">History of Boxing</a></h2>
+                      <p>
+                        Boxing is one of the oldest and most storied sports in
+                        human history, dating back to ancient civilizations
+                        where it was practiced as both a form of combat training
+                        and entertainment. Evidence of early boxing can be
+                        traced to the Sumerians over 5,000 years ago, with
+                        depictions of fist-fighting appearing in ancient
+                        Egyptian and Mesopotamian art. However, it was the
+                        Greeks who first formalized the sport, including it in
+                        the Olympic Games as early as 688 BC, where fighters
+                        wrapped their hands with leather straps for protection.
+                        The Romans later introduced their own version, often
+                        brutal and fought by gladiators for the amusement of
+                        large crowds. After the fall of Rome, boxing faded in
+                        popularity but re-emerged in 17th-century England,
+                        evolving into a more structured sport with the
+                        introduction of rules and regulations. The famous
+                        Marquess of Queensberry Rules, established in 1867,
+                        revolutionized boxing by introducing padded gloves,
+                        timed rounds, and a ten-second count for knockdowns,
+                        shaping the modern form of the sport. Over the 20th
+                        century, boxing produced legendary fighters like Jack
+                        Johnson, Muhammad Ali, Joe Frazier, and Mike Tyson, who
+                        not only dominated the ring but also left a lasting
+                        impact on sports culture. Today, boxing continues to
+                        thrive globally, with major promotions, pay-per-view
+                        events, and rising superstars bringing excitement to
+                        fans around the world. From its brutal origins to the
+                        refined, highly strategic sport it is today, boxing
+                        remains a testament to human endurance, skill, and the
+                        pursuit of greatness.
+                      </p>
+                    </div>
+                    <div class="post-entry">
+                      <a href="boxing.html"
+                        ><img
+                          src="assets/images/boxingpicfemalefighter.jpg"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
+                      <div class="post-meta">
+                        <span class="date">Boxing</span>
+                        <span class="mx-1">•</span> <span>Jul 17th '22</span>
+                      </div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+                      <h2>
+                        <a href="boxing.html"
+                          >The Rise of an Unstoppable Champion: A Tale of Grit
+                          and Glory
+                        </a>
+                      </h2>
+                      <p>
+                        Born and raised in the heart of New York, Sarah "The
+                        Storm" Alvarez is a force to be reckoned with in the
+                        world of boxing. From a young age, Sarah was drawn to
+                        the gritty streets and the fast-paced energy of her
+                        city, where she quickly learned that survival wasn’t
+                        just about physical strength—it was about perseverance.
+                        Trained in the local gyms, under the guidance of
+                        seasoned coaches, Sarah's rise to prominence was fueled
+                        by her relentless work ethic and the undying support of
+                        her community. With every punch thrown in the ring,
+                        she’s not just fighting for victory, but for her roots,
+                        her family, and the dreams of every young girl who dares
+                        to believe in herself. Known for her lightning-fast
+                        footwork, unmatched stamina, and an unwavering
+                        commitment to excellence, Sarah has shattered
+                        stereotypes and become a role model for countless
+                        aspiring boxers worldwide. Her story is one of
+                        resilience, proving that no matter where you come from,
+                        you can rise to the top with determination and heart.
+                      </p>
+                    </div>
+                    <div class="post-entry">
+                      <a href="mlbleague.html"
+                        ><img
+                          src="assets/images/boxingpicmaleopponent 2.jpg"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
+                      <div class="post-meta">
+                        <span class="date">MLB</span>
+                        <span class="mx-1">•</span> <span>Mar 15th '22</span>
+                      </div>
+                      <h2>
+                        <a href="mlbleague.html"
+                          >The Road to Redemption: A Rising Star at a Crossroads
+                        </a>
+                      </h2>
+                      <p>
+                        Marcus "The Titan" Johnson, once heralded as the future
+                        of boxing, is currently facing the most defining moment
+                        of his career. After an unexpected loss that left fans
+                        and critics alike stunned, Johnson is now questioning if
+                        he has what it takes to climb back to the top of the
+                        sport. Known for his explosive power and unwavering
+                        confidence, Marcus’s reputation took a significant hit
+                        when he lost in a stunning upset that no one saw coming.
+                        The knockout was more than just a defeat—it was a blow
+                        to the psyche of the young fighter, a reminder of how
+                        quickly the tide can turn in the ring. As the dust
+                        settles, the questions continue to swirl: Can Johnson
+                        reinvent himself and return stronger than ever, or has
+                        the pressure of the spotlight proven too much? Despite
+                        the setbacks, Marcus has never been one to back down
+                        from a challenge, and sources close to the fighter
+                        suggest that he’s already back in the gym, pushing
+                        himself harder than ever before. The real question now
+                        isn’t whether he can come back—it’s whether he can prove
+                        to himself, and to the world, that his loss was just
+                        another step on the road to redemption. Fans are eager
+                        to see if the once-promising boxer will reclaim his
+                        title or if his brief reign will be remembered as
+                        nothing more than a fleeting moment in a career that
+                        never truly materialized.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 border-start custom-border">
+                    <div class="post-entry">
+                      <a href="nflleague.html"
+                        ><img
+                          src="assets/images/boxingplayerquickpic.jpg"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
+                      <div class="post-meta">
+                        <span class="date">NFL</span>
+                        <span class="mx-1">•</span> <span>Jul 5th '22</span>
+                      </div>
+                      <h2>
+                        <a href="nflleague.html"
+                          >Chasing Glory: The Fighter Who’s Ready to Take on the
+                          Champ
+                        </a>
+                      </h2>
+                      <p>
+                        In a bold and fearless statement, rising star Alex "The
+                        Bulldog" Carter is setting his sights on the champion’s
+                        title, and he’s not backing down. After an impressive
+                        string of wins, Carter believes his time has come to
+                        prove he’s the true contender in the heavyweight
+                        division. Known for his relentless aggression and a
+                        never-say-die attitude, Carter has built a reputation as
+                        a fighter who thrives under pressure. His latest win, a
+                        dominating knockout in the third round, has only added
+                        fuel to the fire, and now he’s calling out the reigning
+                        champion, Marcus "The Titan" Johnson, with one goal in
+                        mind: to take his place at the top. Fans are buzzing
+                        about the potential showdown, as Carter's raw power and
+                        relentless fighting style contrast sharply with the
+                        champion’s polished technique and experience. Carter has
+                        no fear of the spotlight and is fully aware of what it
+                        takes to dethrone a champion. With his eyes firmly set
+                        on the belt, "The Bulldog" is ready to give everything
+                        in the ring and take on the challenge that could define
+                        his career. Will he have the heart to withstand the
+                        pressure, or will the champion prove too much for the
+                        hungry challenger? The stage is set for one of the most
+                        anticipated bouts in recent memory.
+                      </p>
+                    </div>
+                    <div class="post-entry">
+                      <a href="nbaleague.html"
+                        ><img
+                          src="assets/images/boxingplayerbrightlights.jpg"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
+                      <div class="post-meta">
+                        <span class="date">NBA</span>
+                        <span class="mx-1">•</span> <span>Mar 1st '22</span>
+                      </div>
+                      <h2>
+                        <a href="nbaleague.html"
+                          >From Champion to Controversy: The Fall of a Boxing
+                          Icon
+                        </a>
+                      </h2>
+                      <p>
+                        Once celebrated for his impressive victories and
+                        dominant presence in the ring, Leo "The Lightning"
+                        Dawson's career took a sharp and unexpected turn after
+                        he was arrested for assault following an altercation
+                        outside of a nightclub. Dawson, who had risen to fame as
+                        a fan favorite known for his lightning-fast punches and
+                        showmanship, now finds himself at the center of a media
+                        storm. Details surrounding the incident remain unclear,
+                        but what’s certain is that the boxer’s actions have
+                        caused irreparable damage to his reputation and legacy.
+                        Fans, who once hailed him as the future of boxing, are
+                        now left questioning the true character of the man
+                        behind the gloves. Dawson’s arrest has sent shockwaves
+                        through the sports world, casting a shadow over his
+                        illustrious career. As the legal process unfolds, many
+                        are wondering if this will be the end of the road for
+                        "The Lightning" or if he can somehow rebuild his life
+                        and career. For now, Dawson must face the consequences
+                        of his actions both inside and outside the ring, and it
+                        remains to be seen if he can ever reclaim the glory he
+                        once had.
+                      </p>
+                    </div>
+                    <div class="post-entry">
+                      <a href="nhlleague.html"
+                        ><img
+                          src="assets/images/boxinguppercutthrown.jpg"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
+                      <div class="post-meta">
+                        <span class="date">NHL</span>
+                        <span class="mx-1">•</span> <span>Jul 5th '22</span>
+                      </div>
+                      <h2>
+                        <a href="nhlleague.html"
+                          >The Final Showdown: Two Legends Face Off for One Last
+                          Round
+                        </a>
+                      </h2>
+                      <p>
+                        In a battle that has boxing fans across the world
+                        holding their breath, two of the sport’s most legendary
+                        figures, Tommy "The Titan" Harris and Victor "The Viper"
+                        Delgado, are stepping back into the ring for one final
+                        match. Both fighters, now well past their prime, have
+                        left indelible marks on the sport with their storied
+                        careers filled with epic victories and unforgettable
+                        moments. Harris, known for his brutal knockout power and
+                        unbreakable will, was once the youngest champion in
+                        history, while Delgado, a tactical genius with an iron
+                        chin, earned his reputation through decades of battles
+                        with the sport’s best. Now, after years of retirement
+                        and a lifetime of accomplishments, they are answering
+                        the call for one last fight—an opportunity to prove
+                        that, despite age, their skills and heart still reign
+                        supreme. The matchup is filled with nostalgia and
+                        anticipation, but it’s also a question of legacy. Will
+                        Harris, who’s fought through injuries and setbacks,
+                        still have the power to deliver that game-changing
+                        punch? Can Delgado, whose boxing IQ has only sharpened
+                        over time, outwit his opponent in this final bout? While
+                        the world has changed since their prime years, the fire
+                        that once made them champions burns brightly, and both
+                        men are determined to show that legends never truly fade
+                        away. This fight, more than any other, is about proving
+                        that even in the twilight of their careers, Harris and
+                        Delgado are far from finished—one last battle to cement
+                        their legacies.
+                      </p>
+                    </div>
+                  </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+                  <!-- Trending Section -->
+                  <div class="col-xl-12">
+                    <div class="row-lg-12">
+                      <div class="trending">
+                        <h3>Trending</h3>
+                        <ul class="trending-post">
+                          
+                          <li>
+                            <a href="boxing.html">
+                              <span class="number">Boxing</span>
+                              <h3>
+                                The Champ is now sitting at 14 wins in a row
+                                since winning his belt!
+                              </h3>
+                              <span class="author">Jane Cooper</span>
+                              <h2>Do you like this poll?</h2>
+                              <button onclick="vote('yes')">Yes</button>
+                              <button onclick="vote('no')">No</button>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+                              <p>Results:</p>
+                              <meter
+                                id="pollMeter"
+                                min="0"
+                                max="100"
+                                value="50"
+                              ></meter>
+                              <p id="resultsText">Yes: 50% | No: 50%</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="nhlleague.html">
+                              <span class="number">NHL</span>
+                              <h3>Stevenson Is Fed Up With Tampa</h3>
+                              <span class="author">Wade Warren</span>
+                              <h2>Do you like this poll?</h2>
+                              <button onclick="vote('yes')">Yes</button>
+                              <button onclick="vote('no')">No</button>
 
-</body>
+                              <p>Results:</p>
+                              <meter
+                                id="pollMeter"
+                                min="0"
+                                max="100"
+                                value="50"
+                              ></meter>
+                              <p id="resultsText">Yes: 50% | No: 50%</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="mlbleague.html">
+                              <span class="number">MLB</span>
+                              <h3>13</h3>
+                              <span class="author">Esther Howard</span>
+                              <h2>Do you like this poll?</h2>
+                              <button onclick="vote('yes')">Yes</button>
+                              <button onclick="vote('no')">No</button>
 
+                              <p>Results:</p>
+                              <meter
+                                id="pollMeter"
+                                min="0"
+                                max="100"
+                                value="50"
+                              ></meter>
+                              <p id="resultsText">Yes: 50% | No: 50%</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="nbaleague.html">
+                              <span class="number">NBA</span>
+                              <h3>
+                                9 Half-up/half-down Hairstyles for Long and
+                                Medium Hair
+                              </h3>
+                              <span class="author">Cameron Williamson</span>
+                              <h2>Do you like this poll?</h2>
+                              <button onclick="vote('yes')">Yes</button>
+                              <button onclick="vote('no')">No</button>
+
+                              <p>Results:</p>
+                              <meter
+                                id="pollMeter"
+                                min="0"
+                                max="100"
+                                value="50"
+                              ></meter>
+                              <p id="resultsText">Yes: 50% | No: 50%</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="nflleague.html">
+                              <span class="number">NFL</span>
+                              <h3>Life de</h3>
+                              <span class="author">Jenny Wilson</span>
+                              <h2>Do you like this poll?</h2>
+                              <button onclick="vote('yes')">Yes</button>
+                              <button onclick="vote('no')">No</button>
+
+                              <p>Results:</p>
+                              <meter
+                                id="pollMeter"
+                                min="0"
+                                max="100"
+                                value="50"
+                              ></meter>
+                              <p id="resultsText">Yes: 50% | No: 50%</p>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <footer id="footer" class="footer dark-background">
+                      <div class="container footer-top">
+                        <div class="row gy-4">
+                          <div class="col-lg-4 col-md-6 footer-about">
+                            <a
+                              href="index.html"
+                              class="logo d-flex align-items-center"
+                            >
+                              <span class="sitename">Sports World</span>
+                            </a>
+                            <div class="footer-contact pt-3">
+                              <p>Fresno City College</p>
+                              <p>Fresno, California</p>
+                              <p class="mt-3">
+                                <strong>Phone:</strong>
+                                <span>+1 5589 55488 55</span>
+                              </p>
+                              <p>
+                                <strong>Email:</strong>
+                                <span>seveinnieves7@gmail.com</span>
+                              </p>
+                            </div>
+                            <div class="social-links d-flex mt-4">
+                              <a href=""><i class="bi bi-twitter-x"></i></a>
+                              <a href=""><i class="bi bi-facebook"></i></a>
+                              <a href=""><i class="bi bi-instagram"></i></a>
+                              <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>Quick Links</h4>
+                            <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About us</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                              <li><a href="learnmore.html">Learn More</a></li>
+                            </ul>
+                          </div>
+
+                          <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>Extras</h4>
+                            <ul>
+                              <li><a href="debates.html">Debates</a></li>
+                              <li><a href="history.html">History</a></li>
+                              <li><a href="sitemap.html">Sitemap</a></li>
+                              <li><a href="opinions.html">Opinions</a></li>
+                            </ul>
+                          </div>
+
+                          <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>All The Leagues</h4>
+                            <ul>
+                              <li>
+                                <a href="nbaleague.html">The NBA League</a>
+                              </li>
+                              <li>
+                                <a href="mlbleague.html">The MLB League</a>
+                              </li>
+                              <li>
+                                <a href="nhlleague.html">The NHL League</a>
+                              </li>
+                              <li>
+                                <a href="nflleague.html">The NFL League</a>
+                              </li>
+                              <li>
+                                <a href="boxing.html">The Boxing World</a>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="container copyright text-center mt-4">
+                            <p>
+                              © <span>Copyright</span>
+                              <strong class="px-1 sitename"
+                                >Sports World</strong
+                              >
+                              <span>All Rights Reserved</span>
+                            </p>
+                            <div class="credits">
+                              <!-- All the links in the footer should remain intact. -->
+                              <!-- You can delete the links only if you've purchased the pro version. -->
+                              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                              <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                              Designed by
+                              <a href="https://bootstrapmade.com/"
+                                >BootstrapMade</a
+                              >
+                              Distributed by <a
+                              href=“https://themewagon.com>ThemeWagon
+                            </div>
+                          </div>
+
+                          <!-- Scroll Top -->
+                          <a
+                            href="#"
+                            id="scroll-top"
+                            class="scroll-top d-flex align-items-center justify-content-center"
+                            ><i class="bi bi-arrow-up-short"></i
+                          ></a>
+
+                          <!-- Preloader -->
+                          <div id="preloader"></div>
+
+                          <!-- Vendor JS Files -->
+                          <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                          <script src="assets/vendor/php-email-form/validate.js"></script>
+                          <script src="assets/vendor/aos/aos.js"></script>
+                          <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+                          <!-- Main JS File -->
+                          <script src="assets/js/main.js"></script>
+                        </div>
+                      </div>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

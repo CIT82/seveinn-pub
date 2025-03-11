@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>Debates - Sports World</title>
+        <title>Opinions - Sports World</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
       
@@ -31,7 +31,7 @@
 
     <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        Sports World <img src="assets/images/favicon/faviconimages/favicon-96x96.png" alt="">
       </a>
     
       <nav id="navmenu" class="navmenu">
@@ -96,106 +96,265 @@
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
+      
 
     </div>
   </header>
   <main class="main">
-
-    <!-- Page Title -->
     <div class="page-title">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Starter Page</h1>
+        <h1 class="mb-2 mb-lg-0">Debates</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Starter Page</li>
+            <li class="current">Debates</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
-
-    <!-- Starter Section Section -->
-    <section id="starter-section" class="starter-section section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <div class="section-title-container d-flex align-items-center justify-content-between">
-          <h2>Starter Section</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
+    <div class="container section-title" data-aos="fade-up">
+      <div class="section-title-container d-flex align-items-center justify-content-between">
+        <h2>Trending Opinions</h2>
+        <p>controviserial opinions in all featured sports.</p>
       </div>
-
-    </section><!-- /Starter Section Section -->
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">ZenBlog</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+    </div><!-- End Section Title -->
+    <!-- Slider Section -->
+    <table width="100%">
+      <tr>
+        <!-- First Column of Opinions -->
+        <td width="50%" valign="top">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <a href="sitemap.html"><strong>Sitemap</strong></a>
+            <!-- Boxing Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">Boxing</span>
+              <h3>Should Boxing Have Only One Belt Per Division?</h3>
+              <h2>Would unifying all championships improve boxing?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="72"></meter>
+              <p>Yes: 72% | No: 28%</p>
+            </li>
+    
+            <!-- NBA Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">NBA</span>
+              <h3>Should the NBA Introduce a Four-Point Line?</h3>
+              <h2>Would a deeper shot make the game more exciting?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="50"></meter>
+              <p>Yes: 50% | No: 50%</p>
+            </li>
+    
+            <!-- NHL Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">NHL</span>
+              <h3>Should NHL Games Be Played on Larger Ice Rinks?</h3>
+              <h2>Would a bigger rink improve the pace of the game?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="45"></meter>
+              <p>Yes: 45% | No: 55%</p>
+            </li>
           </ul>
+        </td>
+    
+        <!-- Second Column of Opinions -->
+        <td width="50%" valign="top">
+          <ul>
+            <!-- Boxing Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">Boxing</span>
+              <h3>Has Social Media Influencer Boxing Hurt the Sport?</h3>
+              <h2>Are YouTubers ruining boxing’s credibility?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="68"></meter>
+              <p>Yes: 68% | No: 32%</p>
+            </li>
+    
+            <!-- NBA Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">NBA</span>
+              <h3>Should the NBA Reduce the Regular Season?</h3>
+              <h2>Would fewer games improve the competition?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="53"></meter>
+              <p>Yes: 53% | No: 47%</p>
+            </li>
+    
+            <!-- NFL Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">NFL</span>
+              <h3>Should the NFL Expand to More International Games?</h3>
+              <h2>Would more global games help grow the sport?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="60"></meter>
+              <p>Yes: 60% | No: 40%</p>
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <table width="100%">
+      <tr>
+        <!-- First Column of Opinions -->
+        <td width="50%" valign="top">
+          <ul>
+            <!-- Boxing Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">Boxing</span>
+              <h3>Should Boxing Have Only One Belt Per Division?</h3>
+              <h2>Would unifying all championships improve boxing?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="72"></meter>
+              <p>Yes: 72% | No: 28%</p>
+            </li>
+    
+            <!-- NBA Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">NBA</span>
+              <h3>Should the NBA Introduce a Four-Point Line?</h3>
+              <h2>Would a deeper shot make the game more exciting?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="50"></meter>
+              <p>Yes: 50% | No: 50%</p>
+            </li>
+    
+            <!-- NHL Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">NHL</span>
+              <h3>Should NHL Games Be Played on Larger Ice Rinks?</h3>
+              <h2>Would a bigger rink improve the pace of the game?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="45"></meter>
+              <p>Yes: 45% | No: 55%</p>
+            </li>
+          </ul>
+        </td>
+    
+        <!-- Second Column of Opinions -->
+        <td width="50%" valign="top">
+          <ul>
+            <!-- Boxing Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">Boxing</span>
+              <h3>Has Social Media Influencer Boxing Hurt the Sport?</h3>
+              <h2>Are YouTubers ruining boxing’s credibility?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="68"></meter>
+              <p>Yes: 68% | No: 32%</p>
+            </li>
+    
+            <!-- NBA Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">NBA</span>
+              <h3>Should the NBA Reduce the Regular Season?</h3>
+              <h2>Would fewer games improve the competition?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="53"></meter>
+              <p>Yes: 53% | No: 47%</p>
+            </li>
+    
+            <!-- NFL Opinion -->
+            <li style="border: 1px solid gray; padding: 5px; margin: 5px;">
+              <span class="number">NFL</span>
+              <h3>Should the NFL Expand to More International Games?</h3>
+              <h2>Would more global games help grow the sport?</h2>
+              <button onclick="vote('yes')">Yes</button>
+              <button onclick="vote('no')">No</button>
+              <p>Results:</p>
+              <meter min="0" max="100" value="60"></meter>
+              <p>Yes: 60% | No: 40%</p>
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    
+
+    <footer id="footer" class="footer dark-background">
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Sports World</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+              <p><strong>Email:</strong> <span>info@example.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+  
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+  
+  
+      <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">ZenBlog</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
+            <a href="sitemap.html"><strong>Sitemap</strong></a>
+  
         </div>
-
       </div>
-    </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Sports World</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
-          <a href="sitemap.html"><strong>Sitemap</strong></a>
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+  
+    </footer>
+  
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+    <!-- Preloader -->
+    <div id="preloader"></div>
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  
+  </body>
+  
+  </html>
