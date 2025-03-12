@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Boxing - Sports World</title>
+    <title>NBA - Sports World</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -38,31 +38,39 @@
     <link href="assets/css/main.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="header d-flex align-items-center sticky-top">
-      <div
-        class="container position-relative d-flex align-items-center justify-content-between"
-      >
-        <a
-          href="index.html"
-          class="logo d-flex align-items-center me-auto me-xl-0"
-        >
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+  
+        <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <img src="assets/images/favicon/faviconimages/favicon-96x96.png" alt="">
+          <h1 class="sitename">Sports World</h1>
         </a>
-
+  
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="learnmore.html" class="active">Learn More</a></li>
+            <li class="dropdown">
+              <a href="index.html"
+                ><span class="active">Home</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+  
+            <ul>
+            <li><a href="learnmore.html">Learn More</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sportsleagues.html">Sports Leagues</a></li>
+            <li><a href="myfavoriteteams.html">My Favorite</a></li>
+
+          </ul>
             <li class="dropdown">
               <a href="#"
                 ><span>All the Leagues</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i
               ></a>
-
+  
               <ul>
                 <li class="list-group-item">
-                  <a href="nbaleague.html">NBA League</a>
+                  <a class="active" href="nbaleague.html">NBA League</a>
                 </li>
                 <li class="list-group-item">
                   <a href="nflleague.html">NFL League</a>
@@ -78,7 +86,7 @@
                 </li>
               </ul>
             </li>
-
+  
             <li class="dropdown">
               <a href="#"
                 ><span>Extras</span>
@@ -100,17 +108,18 @@
                 <li class="list-group-item"><a href="about.html">About</a></li>
               </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
+  
+  
         <div class="header-social-links">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
           <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
           <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
           <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
+  
       </div>
     </header>
     <main class="main">
@@ -473,14 +482,7 @@
                           In a tightly contested battle at Ball Arena, the Denver Nuggets fended off a late surge from the Chicago Bulls to secure a 114-109 victory behind a dominant performance from Nikola Jokić. The reigning MVP controlled the game from start to finish, tallying 29 points, 13 rebounds, and 8 assists while orchestrating Denver’s offense with his signature court vision. The Bulls, determined to keep pace, leaned on DeMar DeRozan’s scoring touch as he poured in 32 points, keeping Chicago within striking distance throughout the game. Zach LaVine added 24 points of his own, knocking down key shots to fuel a late Bulls comeback attempt. However, Denver’s supporting cast stepped up when it mattered most, with Jamal Murray and Michael Porter Jr. delivering clutch buckets in the final minutes. Chicago had a chance to tie the game in the final seconds, but a missed three from LaVine and a pair of free throws from Murray sealed the win for the Nuggets. With the victory, Denver continues to strengthen its hold on the Western Conference standings, while the Bulls will need to regroup as they battle for playoff positioning in the East.
                         </p>
                       </div>
-                      <div class="post-entry">
-                        <a href="nhlleague.html"
-                          ><img
-                            src="assets/images/nbap.jpeg"
-                            alt=""
-                            class="img-fluid"
-                        /></a>
-                    </div>
+                     
 
                     <!-- Trending Section -->
                     <div class="col-xl-12">
@@ -559,118 +561,90 @@
                     </div>
                     
 
-                      <footer id="footer" class="footer dark-background">
-                        <div class="container footer-top">
-                          <div class="row gy-4">
-                            <div class="col-lg-4 col-md-6 footer-about">
-                              <a
-                                href="index.html"
-                                class="logo d-flex align-items-center"
-                              >
-                                <span class="sitename">Sports World</span>
-                              </a>
-                              <div class="footer-contact pt-3">
-                                <p>Fresno City College</p>
-                                <p>Fresno, California</p>
-                                <p class="mt-3">
-                                  <strong>Phone:</strong>
-                                  <span>+1 5589 55488 55</span>
-                                </p>
-                                <p>
-                                  <strong>Email:</strong>
-                                  <span>seveinnieves7@gmail.com</span>
-                                </p>
-                              </div>
-                              <div class="social-links d-flex mt-4">
-                                <a href=""><i class="bi bi-twitter-x"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                              </div>
+                    <footer id="footer" class="footer dark-background">
+
+                      <div class="container footer-top">
+                        <div class="row gy-4">
+                          <div class="col-lg-4 col-md-6 footer-about">
+                            <a href="index.html" class="logo d-flex align-items-center">
+                              <span class="sitename">Sports World</span>
+                            </a>
+                            <div class="footer-contact pt-3">
+                              <p>Fresno City College</p>
+                              <p>Fresno, California</p>
+                              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+                              <p><strong>Email:</strong> <span>seveinnieves7@gmail.com</span></p>
                             </div>
-
-                            <div class="col-lg-2 col-md-3 footer-links">
-                              <h4>Quick Links</h4>
-                              <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="learnmore.html">Learn More</a></li>
-                              </ul>
+                            <div class="social-links d-flex mt-4">
+                              <a href=""><i class="bi bi-twitter-x"></i></a>
+                              <a href=""><i class="bi bi-facebook"></i></a>
+                              <a href=""><i class="bi bi-instagram"></i></a>
+                              <a href=""><i class="bi bi-linkedin"></i></a>
                             </div>
-
-                            <div class="col-lg-2 col-md-3 footer-links">
-                              <h4>Extras</h4>
-                              <ul>
-                                <li><a href="debates.html">Debates</a></li>
-                                <li><a href="history.html">History</a></li>
-                                <li><a href="sitemap.html">Sitemap</a></li>
-                                <li><a href="opinions.html">Opinions</a></li>
-                              </ul>
-                            </div>
-
-                            <div class="col-lg-2 col-md-3 footer-links">
-                              <h4>All The Leagues</h4>
-                              <ul>
-                                <li>
-                                  <a href="nbaleague.html">The NBA League</a>
-                                </li>
-                                <li>
-                                  <a href="mlbleague.html">The MLB League</a>
-                                </li>
-                                <li>
-                                  <a href="nhlleague.html">The NHL League</a>
-                                </li>
-                                <li>
-                                  <a href="nflleague.html">The NFL League</a>
-                                </li>
-                                <li>
-                                  <a href="boxing.html">The Boxing World</a>
-                                </li>
-                              </ul>
-                            </div>
-
-                            <div class="container copyright text-center mt-4">
-                              <p>
-                                © <span>Copyright</span>
-                                <strong class="px-1 sitename"
-                                  >Sports World</strong
-                                >
-                                <span>All Rights Reserved</span>
-                              </p>
-                              <div class="credits">
-                                <!-- All the links in the footer should remain intact. -->
-                                <!-- You can delete the links only if you've purchased the pro version. -->
-                                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                                Designed by
-                                <a href="https://bootstrapmade.com/"
-                                  >BootstrapMade</a
-                                >
-                                Distributed by <a
-                                href=“https://themewagon.com>ThemeWagon
-                              </div>
-                            </div>
-
-                            <!-- Scroll Top -->
-                            <a
-                              href="#"
-                              id="scroll-top"
-                              class="scroll-top d-flex align-items-center justify-content-center"
-                              ><i class="bi bi-arrow-up-short"></i
-                            ></a>
-
-                            <!-- Preloader -->
-                            <div id="preloader"></div>
-
-                            <!-- Vendor JS Files -->
-                            <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-                            <script src="assets/vendor/php-email-form/validate.js"></script>
-                            <script src="assets/vendor/aos/aos.js"></script>
-                            <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-                            <!-- Main JS File -->
-                            <script src="assets/js/main.js"></script>
+                          </div>
+                  
+                          <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>Quick Links</h4>
+                            <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About us</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                              <li><a href="learnmore.html">Learn More</a></li>
+                              <li><a href="sportsleagues.html">Sports Leagues</a></li>
+                              <li><a href="myfavoriteteams.html">My Favorites</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>Extras</h4>
+                            <ul>
+                              <li><a href="debates.html">Debates</a></li>
+                              <li><a href="history.html">History</a></li>
+                              <li><a href="sitemap.html">Sitemap</a></li>
+                              <li><a href="opinions.html">Opinions</a></li>
+                  
+                            </ul>
+                          </div>
+                  
+                          <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>All The Leagues</h4>
+                            <ul>
+                              <li><a href="nbaleague.html">The NBA League</a></li>
+                              <li><a href="mlbleague.html">The MLB League</a></li>
+                              <li><a href="nhlleague.html">The NHL League</a></li>
+                              <li><a href="nflleague.html">The NFL League</a></li>
+                              <li><a href="boxing.html">The Boxing World</a></li>
+                            </ul>
+                          </div>
+                  
+                      <div class="container copyright text-center mt-4">
+                        <p>© <span>Copyright</span> <strong class="px-1 sitename">Sports World</strong> <span>All Rights Reserved</span></p>
+                        <div class="credits">
+                          <!-- All the links in the footer should remain intact. -->
+                          <!-- You can delete the links only if you've purchased the pro version. -->
+                          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
+                            <a href="sitemap.html"><strong>Sitemap</strong></a>
+                  
+                        </div>
+                      </div>
+                  
+                    </footer>
+                  
+                    <!-- Scroll Top -->
+                    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+                  
+                    <!-- Preloader -->
+                    <div id="preloader"></div>
+                  
+                    <!-- Vendor JS Files -->
+                    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                    <script src="assets/vendor/php-email-form/validate.js"></script>
+                    <script src="assets/vendor/aos/aos.js"></script>
+                    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+                  
+                    <!-- Main JS File -->
+                    <script src="assets/js/main.js"></script>
                           </div>
                         </div>
                       </footer>

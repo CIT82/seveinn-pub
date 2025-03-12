@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>Starter page - Sports World</title>
+        <title> My Favorites - Sports World</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
       
@@ -26,18 +26,30 @@
         <link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body>
-<header class="header d-flex align-items-center sticky-top">
+  <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
-    <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/images/favicon/faviconimages/favicon-96x96.png" alt="">
+        <h1 class="sitename">Sports World</h1>
       </a>
-    
+
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="learnmore.html" class="active">Learn More</a></li>
+          <li class="dropdown">
+            <a href="index.html"
+              ><span>Home</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i
+            ></a>
+
+          <ul>
+          <li><a href="learnmore.html">Learn More</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sportsleagues.html">Sports Leagues</a></li> 
+          <li><a class="active" href="myfavoriteteams.html">My Favorite</a></li>
+
+        </ul>
           <li class="dropdown">
             <a href="#"
               ><span>All the Leagues</span>
@@ -84,7 +96,6 @@
               <li class="list-group-item"><a href="about.html">About</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -104,11 +115,11 @@
     <!-- Page Title -->
     <div class="page-title">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Starter Page</h1>
+        <h1 class="mb-2 mb-lg-0">My Favorites</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Starter Page</li>
+            <li class="current">Favorites</li>
           </ol>
         </nav>
       </div>
@@ -120,32 +131,72 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <div class="section-title-container d-flex align-items-center justify-content-between">
-          <h2>Starter Section</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <h2>My Favorite Sports</h2>
+          <p>A Legacy of Greatness, Where Every Play Shapes History
+          </p>
         </div>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
       </div>
 
     </section><!-- /Starter Section Section -->
+    <div class="container dark-background" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper init-swiper">
+        </div>
+          <div class="container dark-background" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-12">
+                <div class="post-entry sm">
+                  <a href="sportsleagues.html">
+                    <img
+                      src="assets/images/myfavoritesport.jpg"
+                    />
+                  </a>
+                  <h2>My Favorite Sport</h2>
+                  <p>One of my favorite sports growing up was basketball, me and my brothers played everyday from sun up to sun down and even tried playing at night whenever we could. It was always me and my brother Juelz who would go play at parks for money so we could buy snacks. I loved basketball so much i would ditch all my freshman classes just to go to P.E and play basketball all day, then go home and play till sun down.
+                    I learned from a highschool coach who lived two houses down and he encouraged me to put 100% into anything I do. Thank you Coach B.
+                    
+                  </p>
+                  <h2>My Favorite Teams/Players</h2>
+                  <p>
+                    NBA: Chicago Bulls, Milwaukee Bucks.
+                    Players: Derrick Rose, Jimmy Butler, Liangelo Ball, Michael Jordan, Ben Wallace, and Zach Lavine.
+                  </p>
+                  <a href="sportsleagues.html">
+                    <img
+                      src="assets/images/myfavoriteboxing.jpg"
+                    />
+                  </a>
+                  <h2>My Favorite Sport</h2>
+                  <p>My Father used to make me and my siblings box in the backyard whenever we had conflict. We grew up around boxing and although at first I didn't care for it, around middle school I started to fall in love with boxing. It may seem barbaric to others but for me, boxing was art. A way to express myself without being judged and non-stop learning through out my journey. There is a certain science to boxing that when slowed down truly shows the skills and IQ of each fighter. I think it's a powerful way to release emotions as well, also building up resillience to various aspects in life. I want to thank My father for showing me how to not only box, but to be able to learn and improve through my own analysis and to think for myself.</p>
+                  <h2>My Favorite Fighters</h2>
+                  <p>
+                    Roberto Duran, Dimitry Bivol, Miguel Cotto, Vasily Lomachenko, Terrence Crawford, Reddick Bowe.
+                  </p>
 
+             
   </main>
+  
 
+
+
+
+
+
+  
   <footer id="footer" class="footer dark-background">
 
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">ZenBlog</span>
+            <span class="sitename">Sports World</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
+            <p>Fresno City College</p>
+            <p>Fresno, California</p>
             <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p><strong>Email:</strong> <span>seveinnieves7@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -156,16 +207,37 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Quick Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <a href="sitemap.html"><strong>Sitemap</strong></a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="learnmore.html">Learn More</a></li>
+            <li><a href="sportsleagues.html">Sports Leagues</a></li>
+            <li><a href="myfavoriteteams.html">My Favorites</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Extras</h4>
+          <ul>
+            <li><a href="debates.html">Debates</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+            <li><a href="opinions.html">Opinions</a></li>
+
           </ul>
         </div>
 
-      </div>
-    </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>All The Leagues</h4>
+          <ul>
+            <li><a href="nbaleague.html">The NBA League</a></li>
+            <li><a href="mlbleague.html">The MLB League</a></li>
+            <li><a href="nhlleague.html">The NHL League</a></li>
+            <li><a href="nflleague.html">The NFL League</a></li>
+            <li><a href="boxing.html">The Boxing World</a></li>
+          </ul>
+        </div>
 
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Sports World</strong> <span>All Rights Reserved</span></p>
@@ -176,6 +248,7 @@
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
           <a href="sitemap.html"><strong>Sitemap</strong></a>
+
       </div>
     </div>
 
